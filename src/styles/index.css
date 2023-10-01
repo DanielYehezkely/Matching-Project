@@ -1,0 +1,103 @@
+
+#hero-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ===========================   Counters ======================================== */
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: var(--maximize-width);
+  height: 20%;
+}
+
+.negativeImg {
+  height: 70%;
+  width: var(--maximize-width);
+}
+.positiveImg {
+  height: 50%;
+  width: var(--maximize-width);
+}
+
+/* ============================      Matcher         ================================  */
+
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 80%;
+  width: var(--maximize-width);
+  overflow: hidden;
+  position: relative;
+  
+}
+.matchers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  height: 70%;
+  position: absolute;
+  top: 0;
+ 
+}
+
+.matcherImg {
+  width: 60%;
+  height: 100%;
+  margin-bottom: 2rem;
+}
+
+.matcherQuestion {
+  height: 7%;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  font-weight: var(--primary-font-weight);
+ 
+}
+
+/* =================================== Footer - Booleans ======================= ===== */
+
+footer {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.trueBtn {
+  color: rgb(255, 255, 255);
+  background-color: rgb(59, 245, 59);
+}
+.trueBtn:hover {
+  color: rgb(144, 224, 144);
+}
+
+.falseBtn {
+  color: rgb(255, 255, 255);
+  background-color: rgb(241, 60, 60);
+}
+
+.falseBtn:hover {
+  color: rgb(215, 151, 151);
+}
+
+/* ============================== Result ============================ */
+.game-result {
+  font-size: 10rem;
+  position: absolute;
+  top: 10rem;
+}

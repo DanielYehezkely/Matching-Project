@@ -1,0 +1,35 @@
+/* === Resets === */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: var(--Page-background);
+  font-family: var(--primary-font-family);
+}
+
+/* ===== variables========= */
+
+:root {
+  --Page-background: linear-gradient(
+    to bottom,
+    #9d97d5 0%,
+    #68c6b8 33%,
+    #e6ad4c 67%,
+    #e87d7d 100%
+  );
+  --primary-font-family: Arial, Helvetica, sans-serif;
+  --primary-font-color: black;
+  --primary-font-weight: bold;
+  --maximize-width: 100%;
+
+}
