@@ -1,4 +1,4 @@
 
-import Matchers from "./Matchers/Matchers";
+import Matchers from "./matchers/Matchers";
 
 export {Matchers};
