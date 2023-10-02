@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 import { matchers } from '../data';
 
-import Counter from '../counters/Counter';
+import Counter from '../Counters/Counter';
 import Buttons from '../buttons/Buttons';
 
 
